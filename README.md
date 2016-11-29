@@ -9,11 +9,11 @@ from the network) running the simulations no longer requires an Internet connect
 
 ## Quickstart
 
-1. Install `giter8` (platform-dependent; on the Mac `brew install giter8`)
-2. Apply the template; there are prompts for the customizable template fields, with the defaults shown in square brackets
+1. Install `giter8` (platform-dependent; on the Mac `brew install giter8`). You could skip this step if using sbt's `new` command (introduced in [version 0.13.13](http://www.scala-sbt.org/0.13/docs/sbt-new-and-Templates.html))
+2. Apply the template; there are prompts for the customizable template fields, with the defaults shown in square brackets. The example below uses `g8`; alternatively with sbt's template resolver the command would be`sbt new polymorphic/gatling-simulation-template.g8`)
 
 ```shell
-% g8 polymorphic/gatling-simulation-template.g8
+% g8 polymorphic/gatling-simulation-template.g8 
 SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
